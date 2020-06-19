@@ -94,6 +94,7 @@ while sair:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_s:
                     termina_jogo = False
+                    iforca = pygame.image.load('forca.png')
                     x = str
                     teste = []
                     dicas = []
